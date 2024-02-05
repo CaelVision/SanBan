@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SanBanLibrary")(type "KiCad")(uri "${KIPRJMOD}/SanBanLibrary.pretty/SanBanLibrary.kicad_sym")(options "")(descr ""))
+)
