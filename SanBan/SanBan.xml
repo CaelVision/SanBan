@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Samuel\Documents\Github\SanBan\SanBan\SanBan.kicad_sch</source>
+    <date>2024-02-12 7:13:23 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SanBan.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>45u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbe0ba82-67c1-4eae-b252-c17a59035958</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b688b73a-ba3a-412f-98c7-68ab2cddf812</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cb0c5ba-2781-4f68-8573-987b39617448</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.7n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3292f81c-e15f-4501-948c-fb76c7f1a506</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>39p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>129de44b-d6da-4d52-8ea4-e1bf0e69b205</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>162744c0-15a3-417e-9bf7-cad8208b3ace</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>AP64500SP-13</value>
+      <footprint>SanBanLibrary:SOIC127P600X163-9N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP64500.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">AP64500SP-13</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ap64500sp-13/diodes-incorporated?region=nac</field>
+        <field name="Height">1.63</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AP64500SP-13</field>
+        <field name="Mouser Part Number">621-AP64500SP-13</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64500SP-13?qs=P1JMDcb91o4IZHHwLYiVQA%3D%3D</field>
+      </fields>
+      <libsource lib="SanBanLibrary" part="AP64500SP-13" description="Conv DC-DC 3.8V to 40V Synchronous Step Down Single-Out 0.8V to 39V 5A 8-Pin SO EP T/R"/>
+      <property name="Height" value="1.63"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="AP64500SP-13"/>
+      <property name="Mouser Part Number" value="621-AP64500SP-13"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64500SP-13?qs=P1JMDcb91o4IZHHwLYiVQA%3D%3D"/>
+      <property name="Arrow Part Number" value="AP64500SP-13"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ap64500sp-13/diodes-incorporated?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Conv DC-DC 3.8V to 40V Synchronous Step Down Single-Out 0.8V to 39V 5A 8-Pin SO EP T/R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8477f5c4-2b84-45c9-9cd1-ffb0faaff882</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x12_Pin</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x12_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x12_Pin" description="Generic connector, single row, 01x12, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x12, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d6f4aa-b5fb-43c8-af1f-a86571c8fc2a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x12_Pin</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x12_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x12_Pin" description="Generic connector, single row, 01x12, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x12, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cbf3fee-914d-44b0-bee7-47abaec126a0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x09_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x09_Pin" description="Generic connector, single row, 01x09, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x09, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96b4df98-f157-4617-900c-f23c72e08577</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdc6eadf-d0fb-40db-97c4-ab2e9cb8b981</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3aadc535-029f-4694-be05-9c0a32980344</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c86e5f8-110a-41fd-b79f-dfe66bb15552</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b778c90-9126-43ec-9c27-e2c00deffa37</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54f60e5e-aab2-4f58-8045-de384a70aea0</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a83e95-f678-490b-a6f1-4aa6ff887554</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb9e8d24-3035-4905-9761-0a2df6259f3e</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7341fa9-cccf-4710-8b92-539ed5281e4b</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d920e6bb-ece3-46ab-992c-ceb3b178cd7f</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>659de7b3-385c-493e-90ce-1967065d17f4</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79e285eb-f856-4319-acda-15ff5341f4b4</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ac25034-3b68-4ed1-948f-fc81935e0315</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96600088-441e-45ac-923d-8cead4fdaad0</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b445dee7-8187-4ef4-8c76-1ae6e8585f05</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x15_Socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x15_Socket" description="Generic connector, single row, 01x15, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8728b1ff-c7e0-43b3-b859-c86dde071293</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.6u</value>
+      <footprint>Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>494a2810-9bcc-4beb-9b63-8ca7280c43f4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>200k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>855250f4-90d3-41c1-b1d8-76bef6344953</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>115k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1cc3d6d-a3fc-4e86-8f8d-9f98b89a9ed9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>22.1k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5be3dce8-7870-41cf-81d7-838d22f87076</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>15.8k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ffb3a29-babb-4d9d-b816-9c8e1da4fe94</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f63ffce-d9f0-4452-84b1-7f6f5c522fe3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2K</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SanBan.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57cbe456-5e3a-493a-bd86-03443e86fac8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x09_Pin">
+      <description>Generic connector, single row, 01x09, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x12_Pin">
+      <description>Generic connector, single row, 01x12, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x15_Socket">
+      <description>Generic connector, single row, 01x15, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SanBanLibrary" part="AP64500SP-13">
+      <description>Conv DC-DC 3.8V to 40V Synchronous Step Down Single-Out 0.8V to 39V 5A 8-Pin SO EP T/R</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP64500.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AP64500SP-13</field>
+        <field name="Footprint">SOIC127P600X163-9N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP64500.pdf</field>
+        <field name="Height">1.63</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AP64500SP-13</field>
+        <field name="Mouser Part Number">621-AP64500SP-13</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64500SP-13?qs=P1JMDcb91o4IZHHwLYiVQA%3D%3D</field>
+        <field name="Arrow Part Number">AP64500SP-13</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ap64500sp-13/diodes-incorporated?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="passive"/>
+        <pin num="2" name="VIN" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="RT/CLK" type="passive"/>
+        <pin num="5" name="FB" type="passive"/>
+        <pin num="6" name="COMP" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="SW" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SanBanLibrary">
+      <uri>C:\Users\Samuel\Documents\Github\SanBan\SanBan/SanBanLibrary.pretty/SanBanLibrary.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J17" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="5V_ESC">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="4" name="BT_RX">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="BT_TX">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J15" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J17" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="GPS_RX">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="GPS_TX">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="I2C_CLK">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J17" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="10" name="I2C_DATA">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J15" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J17" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(IC1-BST)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(IC1-COMP)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="COMP" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(IC1-FB)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="FB" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC1-RT{slash}CLK)">
+      <node ref="IC1" pin="4" pinfunction="RT/CLK" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(IC1-SW)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="SW" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(J2-Pin_4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J15-Pin_1)">
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J15-Pin_2)">
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J15-Pin_3)">
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J15-Pin_4)">
+      <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J17" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J15-Pin_5)">
+      <node ref="J15" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J17" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J15-Pin_6)">
+      <node ref="J15" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J17" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J15-Pin_7)">
+      <node ref="J15" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J17" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J15-Pin_10)">
+      <node ref="J15" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J17" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(J15-Pin_11)">
+      <node ref="J15" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J17" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J15-Pin_13)">
+      <node ref="J15" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J17" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(J15-Pin_15)">
+      <node ref="J15" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J17" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J16-Pin_1)">
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(J16-Pin_2)">
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(J16-Pin_3)">
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(J16-Pin_4)">
+      <node ref="J16" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J18" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J16-Pin_5)">
+      <node ref="J16" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J18" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J16-Pin_7)">
+      <node ref="J16" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J18" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J16-Pin_10)">
+      <node ref="J16" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J18" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J16-Pin_11)">
+      <node ref="J16" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J18" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J16-Pin_15)">
+      <node ref="J16" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J18" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="38" name="PWM0">
+      <node ref="J16" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J18" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="39" name="PWM1">
+      <node ref="J16" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J18" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="40" name="PWM2">
+      <node ref="J16" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J18" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="41" name="PWM3">
+      <node ref="J16" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J18" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="42" name="PWM4">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J18" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="43" name="PWM5">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J18" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(J1-Pin_1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-Pin_2-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J1-Pin_3-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J1-Pin_4-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J1-Pin_5-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J1-Pin_6-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J1-Pin_7-Pad7)">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J1-Pin_8-Pad8)">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J1-Pin_9-Pad9)">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J1-Pin_10-Pad10)">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1-Pin_11-Pad11)">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1-Pin_12-Pad12)">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J2-Pin_2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J2-Pin_7-Pad7)">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J2-Pin_8-Pad8)">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J2-Pin_9-Pad9)">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J2-Pin_10-Pad10)">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J2-Pin_11-Pad11)">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J2-Pin_12-Pad12)">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J3-Pin_3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J3-Pin_7-Pad7)">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J3-Pin_8-Pad8)">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J3-Pin_9-Pad9)">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
